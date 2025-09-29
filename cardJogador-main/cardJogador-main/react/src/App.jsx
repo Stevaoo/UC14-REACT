@@ -3,6 +3,7 @@ import CardJogador from "./components/CardJogador";
 import Fallen from "../src/assets/fallen.jpg"
 import Titulo from "./components/Titulo";
 import selva from "../src/assets/selva.webp";
+import coringa from "../src/assets/coringa.jpg";
 // Função proincipal do App 
 export default function App(){
     // Array de objetos respresentando os jogadores
@@ -23,8 +24,17 @@ export default function App(){
             time: "19° BIMTZ",
             avaliacao: 8,
             imagem: selva
+        },
+        {
+            id: 3,
+            nome: "Coringa",
+            posicao: "Live infinitas",
+            time: "LOUD",
+            avaliacao: 0,
+            imagem: coringa
         }
     ]
+}
     return(
         <main
         style={{
@@ -54,4 +64,3 @@ export default function App(){
 
         </main>
     )
-}
