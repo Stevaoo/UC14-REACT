@@ -2,7 +2,7 @@ import React from "react";
 import CardJogador from "./components/CardJogador";
 import Fallen from "../src/assets/fallen.jpg"
 import Titulo from "./components/Titulo";
-
+import selva from "../src/assets/selva.webp";
 // Função proincipal do App 
 export default function App(){
     // Array de objetos respresentando os jogadores
@@ -18,11 +18,11 @@ export default function App(){
         },
         {
             id: 2,
-            nome: "Neymar Jr",
-            posicao: "Atacante",
-            time: "Santos",
-            avaliacao: 2,
-            imagem: "https://i.pinimg.com/564x/08/7d/19/087d19d9de45761a27f0986d63178722.jpg"
+            nome: "Guerra Na Selva",
+            posicao: "MATA PQD",
+            time: "19° BIMTZ",
+            avaliacao: 8,
+            imagem: selva
         }
     ]
     return(
