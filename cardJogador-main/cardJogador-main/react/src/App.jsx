@@ -1,6 +1,6 @@
 import React from "react";
 import CardJogador from "./components/CardJogador";
-import Fallen from "../src/assets/fallen.jpg"
+import Fallen from "../src/assets/fallen.jpg";
 import Titulo from "./components/Titulo";
 import selva from "../src/assets/selva.webp";
 import coringa from "../src/assets/coringa.jpg";
